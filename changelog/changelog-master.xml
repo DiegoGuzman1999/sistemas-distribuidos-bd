@@ -11,4 +11,7 @@
     <!-- Paso 2: Insertar datos iniciales -->
     <include file="changelog/002-datos-iniciales.sql" relativeToChangelogFile="false"/>
 
+    <!-- Paso 3: Crear tabla de ventas -->
+    <include file="changelog/003-tabla-ventas.sql" relativeToChangelogFile="false"/>
+
 </databaseChangeLog>
